@@ -1,7 +1,6 @@
 on:
   schedule:
     - cron: '*/5 * * * *'
-    branches: main
 
 jobs:
   import-data:
